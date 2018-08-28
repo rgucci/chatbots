@@ -43,7 +43,7 @@ let forecastWeather = (response, data) => {
 		let regEx = new RegExp(data.weather, "i");
 		let testConditions = regEx.test(response.icon); // true or false
 		// return `${testConditions ? 'Yes' : 'No'}, ${getPrefix(getForecast.code, 'future')} ${getForecast.text.bold} ${data.time} in ${location}`;
-		return `${testConditions ? 'Yes' : 'No'}, ${getPrefix(response.icon, 'future')} ${response.icon.toLowerCase().replace("-", " ").replace("-", " ")} in ${data.city.toUpperCase().trim()} ${data.time}`;
+		return `${testConditions ? 'Yes' : 'No, but'} ${getPrefix(response.icon, 'future')} ${response.icon.toLowerCase().replace("-", " ").replace("-", " ")} in ${data.city.toUpperCase().trim()} ${data.time}`;
 	} else {
 		return "I don't seem to know anything about this place...Sorry :(";
 	}
