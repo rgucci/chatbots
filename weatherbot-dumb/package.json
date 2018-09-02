@@ -1,0 +1,16 @@
+{
+  "name": "vanilla",
+  "version": "1.0.0",
+  "description": "A Rule based weather bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "1.1.2",
+    "simplesky": "1.1.1",
+    "xregexp": "3.1.1"
+  }
+}
