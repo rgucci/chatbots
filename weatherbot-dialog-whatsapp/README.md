@@ -21,10 +21,8 @@ You will need to create accounts in
 
   1. Select the Programmable SMS Icon on the left, then WhatsApp to open the WhatsApp Sandbox. Follow the instructions to register your WhatsApp account with the Sandbox.
     ![](images/twilio.whatsapp.png)
-
     1. Try sending a message to the Twilio WhatsApp number, you should receive one of the replies listed in the Sandbox Message Templates (You cannot change the messages, they are predefined by WhatsApp)
     ![](images/twilio.templates.png)
-
     1. Once you are sure that the Sandbox can send and receive your WhatsApp messages, proceed to the next steps.
   1. Take note of the WhatsApp phone number assigned by twilio (the same number you have been messaging in the previous step)
   ![](images/twilio.sandbox.number.png)
@@ -59,7 +57,7 @@ You will need to create accounts in
 
 1. Now you need to link to your weatherbot deployment. Select Fulfillment on the left side
   ![](images/dialogflow.fulfillment.png)
-  
+
   1. Enable the Webhook switch
   1. Fill in the URL with the deployment URL of your weatherbot from step 1, then Save.
 
