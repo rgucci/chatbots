@@ -77,3 +77,5 @@ When in doubt, console.log!
 NOTE: If you deploy on heroku, remember that when using the free tier, your apps will sleep when not in use. So it may take one or two messages to wake up your instance before it starts responding.
 
 NOTE2: The Twilio WhatsApp Sandbox is shared by several developers, and messages are redirected depending on your Sandbox registration, so only use this if you are not concerned about privacy.
+
+This was possible thanks to this great [online course](https://www.udemy.com/build-incredible-chatbots/).
