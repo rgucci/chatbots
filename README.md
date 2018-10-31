@@ -26,6 +26,7 @@ Training code for developing chatbots
    1. Natural Language Processing (NLP) with wit.ai
    1. Do you even lift, bot?-- A little bit of training
    1. Coding exercise ideas
+1. Dialogflow and WhatsApp (added after Asia Camp)
 1. [Useful tools](useful_tools.md)
 1. End credits
    1. A very useful [introductory course](https://www.udemy.com/build-incredible-chatbots). The weather example was based on this.
