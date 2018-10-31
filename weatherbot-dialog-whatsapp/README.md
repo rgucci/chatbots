@@ -70,8 +70,11 @@ That's it! If everything goes well, you should now be able to communicate with y
 If something's not right, you can look at the History tab in DialogFlow.
 
 Here are some helpful pages
+
 [WebhookRequest](https://dialogflow.com/docs/reference/api-v2/rest/Shared.Types/WebhookRequest)
+
 [WebhookResponse](https://dialogflow.com/docs/reference/api-v2/rest/Shared.Types/WebhookResponse)
+
 When in doubt, console.log!
 
 NOTE: If you deploy on heroku, remember that when using the free tier, your apps will sleep when not in use. So it may take one or two messages to wake up your instance before it starts responding.
