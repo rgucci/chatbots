@@ -1,4 +1,4 @@
-# WhatsApp and Dialogflow
+# WhatsApp(via Twilio) and Dialogflow
 
 This weatherbot uses Dialogflow for NLP and WhatsApp(using Twilio) for the messaging client.
 
@@ -20,9 +20,11 @@ You will need to create accounts in
   ![](images/twilio.credentials.png)
 
   1. Select the Programmable SMS Icon on the left, then WhatsApp to open the WhatsApp Sandbox. Follow the instructions to register your WhatsApp account with the Sandbox.
-    ![](images/twilio.whatsapp.png)
+  ![](images/twilio.whatsapp.png)
+
     1. Try sending a message to the Twilio WhatsApp number, you should receive one of the replies listed in the Sandbox Message Templates (You cannot change the messages, they are predefined by WhatsApp)
     ![](images/twilio.templates.png)
+
     1. Once you are sure that the Sandbox can send and receive your WhatsApp messages, proceed to the next steps.
   1. Take note of the WhatsApp phone number assigned by twilio (the same number you have been messaging in the previous step)
   ![](images/twilio.sandbox.number.png)
